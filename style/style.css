@@ -9,7 +9,7 @@ body {
 
   font-size: 14px;
 
-  background-color: black;
+  background-color: #ffff;
 }
 
 *,
@@ -28,7 +28,9 @@ body {
 =========== */
 
 .header {
+  padding-top: 35px 0;
   position: absolute;
+  height: 100px;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -41,9 +43,7 @@ body {
 .heder__inner {
   display: flex;
   justify-content: space-between;
-  padding: 35px 0;
   border-bottom: 1px solid rgba(8, 10, 8, 0.933);
-
   align-items: center;
 }
 
@@ -54,7 +54,7 @@ body {
   display: flex;
 
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 700px;
   text-transform: uppercase;
 }
 
@@ -81,7 +81,9 @@ body {
 /* intro 
 ========== */
 .intro {
-  height: 750px;
+  background: #31344e center no-repeat/cover;
+  display: flex;
+  flex-direction: column;
 
-  background: url("img/intro-bg.jpg") center no-repeat / cover;
+  justify-content: center;
 }
