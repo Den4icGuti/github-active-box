@@ -7,6 +7,8 @@ body {
 
   font-family: "Open Sans", sans-serif; */
 
+  -wedkit-font-smoothing: antialisaid;
+
   font-size: 14px;
 
   background-color: #ffff;
@@ -17,7 +19,18 @@ body {
 *:after {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
+p {
+  margin: 0 0 10px 0;
+}
 .container {
   width: 100%;
   max-width: 1170px;
@@ -43,8 +56,9 @@ body {
 .heder__inner {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(89, 94, 99, 0.933);
   align-items: center;
+
+  border-bottom: 1px solid rgba(89, 94, 99, 0.933);
 }
 
 /* navigation 
@@ -81,7 +95,63 @@ body {
 /* intro 
 ========== */
 .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 100px;
   height: 750px;
   background: url("../img/intro-bg.jpg") center no-repeat;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 970;
+  margin: 0 auto;
+  text-align: center;
+}
+/* banner__text */
+
+.banner__text {
+  margin: 0 0 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro__subtitle {
+  color: #ffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+
+  margin-bottom: 80px;
+}
+/* Button
+ ========== */
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  color: #ffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #e84545;
+  text-decoration: none;
+}
+
+.btn--red {
+  padding: 15px 40px;
+  border-radius: 3px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn--red:hover {
+  background-color: #dd3434;
+  /* transition: background 0.2 linear; */
 }
