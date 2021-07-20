@@ -43,7 +43,7 @@ body {
 .heder__inner {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(8, 10, 8, 0.933);
+  border-bottom: 1px solid rgba(89, 94, 99, 0.933);
   align-items: center;
 }
 
@@ -81,9 +81,7 @@ body {
 /* intro 
 ========== */
 .intro {
-  background: #31344e center no-repeat/cover;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
+  padding-top: 100px;
+  height: 750px;
+  background: url("../img/intro-bg.jpg") center no-repeat;
 }
