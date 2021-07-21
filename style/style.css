@@ -155,3 +155,38 @@ p {
   background-color: #dd3434;
   /* transition: background 0.2 linear; */
 }
+
+/* icons-container
+========== */
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.icons__item {
+  width: 33.333333%;
+  padding: 0 30px;
+  text-align: center;
+  margin: 25 0;
+}
+
+.icons__icon {
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.icons__title {
+  font-size: 14px;
+  color: #2d3033;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.icons__text {
+  font-size: 14px;
+  color: #6c7279;
+  text-align: 1.5;
+}
