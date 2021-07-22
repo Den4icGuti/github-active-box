@@ -33,8 +33,9 @@ p {
 }
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0px auto;
+  padding: 0 15px;
 }
 
 /* Header
@@ -48,6 +49,8 @@ p {
   top: 0px;
   left: 0px;
   z-index: 1000;
+  /* position: fixed;
+  color: #182838; */
 }
 
 /*heder__inner 
@@ -216,13 +219,124 @@ p {
 }
 
 .works__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   width: 100%;
   height: 100%;
-
-  background-color: rgb(red, green, blue, 0.9);
-
+  border-bottom: solid 1px #ffff;
+  border-right: solid 1px #ffff;
+  border-left: solid 1px #ffff;
+  border-top: solid 1px #ffff;
+  background-color: rgb(230, 50, 50, 0.9);
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.2s linear;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
+}
+
+.works__content:hover {
+  opacity: 0.9;
+}
+
+.works__title,
+.works__text {
+  margin-bottom: 5px;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+/* Team_work
+========= */
+
+.team {
+  margin: 100px 0 70px;
+}
+
+.team__inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 -15px;
+}
+
+.team__item {
+  width: 25%;
+
+  padding: 0 15px;
+
+  margin-bottom: 30px;
+}
+
+.team__phfoto {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.team__name {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: black;
+
+  text-align: center;
+}
+
+.position {
+  margin-bottom: 13px;
+  font-size: 19px;
+  color: red;
+
+  text-align: center;
+}
+
+.text__title {
+  font-size: 14px;
+  color: #6c7279;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Social
+========= */
+
+.social {
+  display: flex;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e8ecee;
+  background-color: #ffff;
+  margin-left: 4px;
+
+  transition: background 0.2s linear;
+}
+
+.social__item:hover {
+  background-color: #283683;
+}
+
+.social__item:hover .icon__social {
+  fill: #fff;
+}
+
+.icon__social {
+  display: block;
+  height: 18px;
+  fill: #c6cacc;
+
+  transition: 0.2s linear;
 }
