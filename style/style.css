@@ -49,10 +49,9 @@ p {
   color: #182838; */
 }
 
-.header.fixsed {
+.header.fixed {
   position: fixed;
-
-  background-color: #31344e;
+  background-color: #313454;
 }
 
 /*heder__inner 
