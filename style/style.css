@@ -1,6 +1,8 @@
 body {
   margin: 0px;
 
+  font-family: "Cardo", serif;
+  font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
 
   -wedkit-font-smoothing: antialisaid;
@@ -82,6 +84,7 @@ p {
 .nav__link {
   color: rgb(248, 248, 248);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
   opacity: 0.75;
 
   transition: 0.2c linear;
@@ -632,7 +635,7 @@ p {
   }
 
   .icons {
-    /* margin-top: -66px; */
+    margin-top: -66px;
     margin: 60px 0 30;
   }
   /* Team */
@@ -649,15 +652,18 @@ p {
   /* Testimonials */
   .testinonials__text {
     font-size: 20px;
+    text-align: center;
   }
 
   .testimonials__phfoto {
-    margin: 5px 0 20px;
+    /* margin: 5px 0 20px; */
     overflow: hidden;
   }
   .tesimonial__img {
     max-width: 100%;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   /* Btn block */
