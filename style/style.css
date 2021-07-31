@@ -40,9 +40,9 @@ p {
 =========== */
 
 .header {
-  padding-top: 35px 0;
+  /* padding-top: 35px 0; */
   position: absolute;
-  /* height: 100px; */
+  height: 100px;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -52,8 +52,10 @@ p {
 }
 
 .header.fixed {
+  height: auto;
   position: fixed;
   background-color: #313454;
+  border-bottom: 0;
 }
 
 /*heder__inner 

@@ -10,7 +10,7 @@ $(function () {
 
     
     
-    $(window).on("scroll load", function () {
+    $(window).on("scroll load resize", function () {
           let introH = intro.innerHeight();
         scrollPos = $(this).scrollTop();
         if (scrollPos > introH) {
