@@ -562,6 +562,32 @@ p {
   /* navigation */
   .navigation {
     display: none;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    position: absolute;
+
+    text-align: right;
+
+    top: 100%;
+
+    right: 0;
+
+    background-color: #3a3e64;
+  }
+
+  .navigation.show {
+    display: flex;
+
+    width: 40%;
+
+    /* padding-top: 50px; */
+  }
+
+  .nav__link {
+    padding: 9px 15px;
   }
   /* Burger */
   .burger {

@@ -57,15 +57,15 @@
               <div class="header__logo">
                  <img src="img/imeges-logo-active-box.png" alt="img">
               </div>
-              <nav class="navigation">
-                  <a class="nav__link" href="#" >Features</a>
-                  <a class="nav__link" href="#"  >Works</a>
-                  <a class="nav__link" href="#"  >Our Team</a>
-                  <a class="nav__link" href="#"  >Testimonails</a>
-                  <a class="nav__link" href="#"  >Download</a>
+              <nav class="navigation" id="nav">
+                  <a class="nav__link" href="#" data-scroll="#icons" >Features</a>
+                  <a class="nav__link" href="#" data-scroll="#works"  >Works</a>
+                  <a class="nav__link" href="#" data-scroll="#team" >Our Team</a>
+                  <a class="nav__link" href="#" data-scroll="#testimonials"  >Testimonails</a>
+                  <a class="nav__link" href="#" data-scroll="#download"  >Download</a>
                   
               </nav>
-              <button class="burger" type="button">
+              <button class="burger" type="button" id ="navToggle">
                  <span class="burger__item">Menu</span>
               </button>
             </div>
@@ -94,7 +94,7 @@
 
       <div class="container" >
 
-        <div class="icons">
+        <div class="icons" id="icons">
             <div class="icons__item">
                 <img class="icons__icon" src="img/icons/tools-icon.png" alt="tools-icon" title="tool">
                 <h4 class="icons__title">
@@ -155,7 +155,7 @@
       </div> <!-- / icons -->
     </div> <!-- / container -->
 
-    <div class="works">
+    <div class="works" id="works">
         <div class="works__item">
             <img class="work__phfoto" src="img/works/work-1.jpg" alt="work-1">
             <div class="works__content">
@@ -218,7 +218,7 @@
     
     <!-- Team Work -->
   
-       <div class="team" >
+       <div class="team" id="team" >
             <div class="container">
                 <div class="team__inner">
                     <div class="team__item">
@@ -392,7 +392,7 @@
             </div><!-- /.conatainer -->
        </div><!-- /.team -->
        <!-- Testimonials -->
-       <div class="testimonials" >
+       <div class="testimonials" id="testimonials" >
            <div class="conatainer">
                <div class="testimonials__inner">
                    <div class="testimonials__phfoto">
