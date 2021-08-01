@@ -41,6 +41,9 @@ $(function () {
 
           let elementOffset = $(elementid).offset().top;
 
+
+          nav.removeClass("show");
+
           console.log(elementOffset);
           
           $("html, body").animate({
@@ -52,16 +55,18 @@ $(function () {
 
      /*Nav toggle*/
      
-     let nav = $("#nav");
+     let nav = $("nav");
+
+
      let navToggle = $("#navToggle");
 
-   navToggle.on("click", function (event) {
+     navToggle.on("click", function (event) {
           
           event.preventDefault();
 
+
           nav.toggleClass("show");
      });
-
    
 
 });
