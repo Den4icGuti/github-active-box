@@ -56,6 +56,7 @@ p {
   position: fixed;
   background-color: #313454;
   border-bottom: 0;
+  height: 100px;
 }
 
 /*heder__inner 
@@ -559,7 +560,7 @@ p {
 
 @media (max-width: 991px) {
   /* navigation */
-  .navigation {
+  /* .navigation {
     display: none;
     position: absolute;
     right: 0;
@@ -575,7 +576,7 @@ p {
 
     background-color: #313454;
   }
-}
+} */
 
 .navigation.show {
   display: flex;
@@ -589,7 +590,7 @@ p {
 .burger {
   display: block;
 }
-/* Intro */
+Intro
 .banner__text {
   font-size: 40px;
 }
@@ -612,7 +613,7 @@ p {
 
 .testimonials__phfoto {
   width: 100%;
-  margin: 10px 0 40px;
+  /* margin: 10px 0 40px; */
   overflow: hidden;
 }
 
