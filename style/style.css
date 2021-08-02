@@ -56,7 +56,7 @@ p {
   position: fixed;
   background-color: #313454;
   border-bottom: 0;
-  height: 100px;
+  /* height: 100px; */
 }
 
 /*heder__inner 
@@ -559,82 +559,76 @@ p {
 }
 
 @media (max-width: 991px) {
-  /* navigation */
-  /* .navigation {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 100%;
-
-    flex-direction: column;
-
-    text-align: center;
-    text-align: right;
-    right: 0;
-
-    width: 100%;
-
-    background-color: #313454;
+  Intro .banner__text {
+    font-size: 40px;
   }
-} */
+  .icons__item {
+    width: 25%;
+  }
 
-.navigation.show {
-  display: flex;
-}
+  /* Team */
 
-.nav__link {
-  /* padding: 9px 15px; */
-}
+  .team__item {
+    width: 50%;
+    /* max-width: 270px; */
+    text-align: center;
+  }
+  .team__phfoto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Testimonials */
 
-/* Burger */
-.burger {
-  display: block;
-}
-Intro
-.banner__text {
-  font-size: 40px;
-}
-.icons__item {
-  width: 25%;
-}
+  .testimonials__phfoto {
+    width: 100%;
+    /* margin: 10px 0 40px; */
+    overflow: hidden;
+  }
 
-/* Team */
+  .testimonials__content {
+    width: 100%;
+    padding-left: 0px;
+  }
 
-.team__item {
-  width: 50%;
-  /* max-width: 270px; */
-  text-align: center;
-}
-.team__phfoto {
-  margin-left: auto;
-  margin-right: auto;
-}
-/* Testimonials */
+  .testimonial__name {
+    padding-bottom: 40px;
+  }
+  .testinonials__text {
+    font-size: 20px;
+  }
 
-.testimonials__phfoto {
-  width: 100%;
-  /* margin: 10px 0 40px; */
-  overflow: hidden;
-}
+  /* social */
+  .social {
+    justify-content: center;
+  }
 
-.testimonials__content {
-  width: 100%;
-  padding-left: 0px;
-}
+  @media (max-width: 767px) {
+    /* navigation */
+    .navigation {
+      display: none;
 
-.testimonial__name {
-  padding-bottom: 40px;
-}
-.testinonials__text {
-  font-size: 20px;
-}
+      position: absolute;
+      right: 0;
+      top: 100%;
+      flex-direction: column;
+      width: 40%;
+      text-align: right;
+      background-color: #313454;
+    }
+  }
 
-/* social */
-.social {
-  justify-content: center;
-}
+  .nav__link {
+    padding: 5px 10px;
+  }
 
-@media (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+
+  .navigation.show {
+    display: flex;
+  }
+
   /* Intro */
   .intro {
     height: auto;

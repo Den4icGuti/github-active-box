@@ -55,7 +55,7 @@ $(function () {
 
      /*Nav toggle*/
      
-     let nav = $("nav");
+     let nav = $("#nav");
 
 
      let navToggle = $("#navToggle");
